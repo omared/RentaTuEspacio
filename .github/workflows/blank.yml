@@ -30,7 +30,7 @@ jobs:
           node-version: "18"
       # Install dependencies
       - name: install deps
-        run: npm i
+        run: npm i --force
       # Build app for production
       - name: build app bundle
         run: npm run build:prod
